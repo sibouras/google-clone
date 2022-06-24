@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { ResultContextProvider } from './contexts/ResultContextProvider';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+import { BrowserRouter as Router } from 'react-router-dom'
+import { ResultContextProvider } from './contexts/ResultContextProvider'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,4 +13,4 @@ ReactDOM.render(
     </ResultContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
-);
+)
