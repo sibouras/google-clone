@@ -39,12 +39,12 @@ export const Results = () => {
           ))}
         </main>
       );
-    case '/images':
+    case '/image':
       return (
         <main className="images">
           {results?.map(({ image, link: { href, title } }, index) => (
             <a className="image" href={href} key={index}>
-              <img src={image?.src} alt={title} loading="lazy" />
+              <img src={image?.src} alt={title} />
               <p>{title}</p>
             </a>
           ))}
